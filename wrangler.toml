@@ -1,0 +1,8 @@
+name = "xtu-jwc-mcp"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["text_decoder_cjk_decoder"]
+
+# 部署前可以自行换一个 UUID；修改后客户端 URL 也要同步。
+[vars]
+ACCESS_UUID = "8654fc9e-12da-4f2f-b025-b74aba41bf84"
